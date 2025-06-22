@@ -1,0 +1,93 @@
+
+    Directory: F:\Code\Whisper\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/06/2025    16:03            599 check_env_v1_1603_220625.p
+                                                  y
+-a---          22/06/2025    23:10            424 check_faster_whisper_v1_23
+                                                  18_220625.py
+-a---          22/06/2025    23:11            186 check_site_packages_v1_232
+                                                  0_220625.py
+-a---          22/06/2025    23:10            223 env_diagnostic_v1_2315_220
+                                                  625.py
+-a---          22/06/2025    16:19            789 final_move_v1_1620_220625.
+                                                  py
+-a---          22/06/2025    16:06            437 install_faster_whisper_v1_
+                                                  1606_220625.py
+-a---          22/06/2025    23:07            308 install_faster_whisper_v2_
+                                                  2307_220625.py
+-a---          22/06/2025    23:08            532 install_faster_whisper_v3_
+                                                  2310_220625.py
+-a---          22/06/2025    23:11            441 install_faster_whisper_v4_
+                                                  2322_220625.py
+-a---          22/06/2025    16:00            409 install_pyaudio_v1_1622_22
+                                                  0625.py
+-a---          19/06/2025    20:43           7563 julie_voice_fix.py_backup_
+                                                  v1_20250622_161901.py
+-a---          19/06/2025    18:21           8088 mic_test.py_backup_v1_2025
+                                                  0622_161901.py
+-a---          19/06/2025    17:58           8264 mic_test.py.auto_restart_b
+                                                  ackup_v1_20250622_161901.p
+                                                  y
+-a---          19/06/2025    18:10           7956 mic_test.py.backtick_trigg
+                                                  er_backup_v1_20250622_1619
+                                                  01.py
+-a---          19/06/2025    17:22           8258 mic_test.py.backup_backup_
+                                                  v1_20250622_161901.py
+-a---          19/06/2025    17:52           8344 mic_test.py.enter_version_
+                                                  backup_v1_20250622_161901.
+                                                  py
+-a---          19/06/2025    18:21           8088 mic_test.py.final_version_
+                                                  backup_v1_20250622_161901.
+                                                  py
+-a---          19/06/2025    17:52           8344 mic_test.py.small_model_ba
+                                                  ckup_v1_20250622_161901.py
+-a---          22/06/2025    16:09           1001 move_project_v1_1609_22062
+                                                  5.py
+-a---          19/06/2025    19:48           2809 README.md_backup_v1_202506
+                                                  22_161901.py
+-a---          19/06/2025    18:11           1662 README.md.v1_backup_v1_202
+                                                  50622_161901.py
+-a---          19/06/2025    21:19             85 requirements.txt_backup_v1
+                                                  _20250622_161901.py
+-a---          22/06/2025    16:20            467 restore_files_v1_1620_2206
+                                                  25.py
+-a---          19/06/2025    19:36           3202 run_whisper_gui_backup_v1_
+                                                  1606_220625.py
+-a---          22/06/2025    16:17            531 run_whisper_gui_backup_v2_
+                                                  1616_220625.py
+-a---          22/06/2025    16:15           3774 run_whisper_gui.py_backup_
+                                                  v1_20250622_161901.py
+-a---          19/06/2025    20:26           1048 test_julie_voice.py_backup
+                                                  _v1_20250622_161901.py
+-a---          19/06/2025    20:30           1323 test_windows_tts.py_backup
+                                                  _v1_20250622_161901.py
+-a---          22/06/2025    16:14            325 transcriptions.txt_backup_
+                                                  v1_20250622_161901.py
+-a---          30/05/2025    05:14           8197 tts_module.py_backup_v1_20
+                                                  250622_161901.py
+-a---          30/05/2025    05:14           8197 tts_module.py.v1_backup_v1
+                                                  _20250622_161901.py
+-a---          22/06/2025    16:07            276 verify_faster_whisper_v1_1
+                                                  607_220625.py
+-a---          22/06/2025    23:11            644 verify_installation_v1_231
+                                                  2_220625.py
+-a---          19/06/2025    20:37           6104 verify_julie_voice.py_back
+                                                  up_v1_20250622_161901.py
+-a---          22/06/2025    16:00            243 verify_pyaudio_v1_1624_220
+                                                  625.py
+-a---          22/06/2025    23:01            463 verify_pyaudio_v2_2301_220
+                                                  625.py
+-a---          22/06/2025    16:11            531 verify_run_env_v1_1611_220
+                                                  625.py
+-a---          19/06/2025    21:34          29269 whisper_gui.py_backup_v1_2
+                                                  0250622_161901.py
+-a---          19/06/2025    19:32          19609 whisper_gui.py.v1_backup_v
+                                                  1_20250622_161901.py
+-a---          19/06/2025    19:37          22572 whisper_gui.py.v2_backup_v
+                                                  1_20250622_161901.py
+-a---          19/06/2025    19:38          23886 whisper_gui.py.v3_backup_v
+                                                  1_20250622_161901.py
+-a---          22/06/2025    23:32              0 whisper_structure.txt
+
