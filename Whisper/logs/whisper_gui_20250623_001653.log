@@ -1,0 +1,45 @@
+2025-06-23 00:16:53,627 - whisper_gui - INFO - Starting Whisper GUI application
+2025-06-23 00:16:53,951 - whisper_gui - INFO - PyAudio initialized successfully
+2025-06-23 00:16:54,177 - whisper_gui - INFO - Keyboard hooks set up successfully
+2025-06-23 00:16:54,178 - whisper_gui - INFO - GUI initialized, entering main loop
+2025-06-23 00:16:54,332 - whisper_gui - INFO - Loading Whisper model - this may take a few seconds
+2025-06-23 00:16:54,335 - whisper_gui - INFO - Loading model: small for language: English
+2025-06-23 00:16:54,422 - whisper_gui - INFO - Attempting to load model from cache
+2025-06-23 00:16:54,424 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-23 00:16:54,594 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-small/revision/main HTTP/1.1" 200 1936
+2025-06-23 00:16:55,657 - whisper_gui - INFO - Model loaded successfully from cache
+2025-06-23 00:16:55,658 - whisper_gui - INFO - Model loaded successfully
+2025-06-23 00:17:03,044 - whisper_gui - INFO - Starting audio recording
+2025-06-23 00:17:03,063 - whisper_gui - DEBUG - Audio stream opened successfully
+2025-06-23 00:17:08,427 - whisper_gui - INFO - Recording stopped by user, processing audio
+2025-06-23 00:17:08,449 - whisper_gui - INFO - Recording stopped, captured 84 frames
+2025-06-23 00:17:08,466 - whisper_gui - INFO - Saving audio recording (84 frames)
+2025-06-23 00:17:08,474 - whisper_gui - DEBUG - Audio saved to temporary file: C:\Users\roo\AppData\Local\Temp\tmppu1vmk0o.wav
+2025-06-23 00:17:08,476 - whisper_gui - INFO - Transcribing audio in language: en
+2025-06-23 00:17:08,556 - faster_whisper - INFO - Processing audio with duration 00:05.376
+2025-06-23 00:17:08,594 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2025-06-23 00:17:20,848 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.0 (37.238095 > 2.400000)
+2025-06-23 00:17:25,933 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.2 (37.238095 > 2.400000)
+2025-06-23 00:17:30,686 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.4 (37.238095 > 2.400000)
+2025-06-23 00:17:31,949 - faster_whisper - DEBUG - Reset prompt. prompt_reset_on_temperature threshold is met 0.600000 > 0.500000
+2025-06-23 00:17:31,950 - whisper_gui - INFO - Transcription successful: 33 characters
+2025-06-23 00:17:31,951 - whisper_gui - INFO - Saved transcription to f:\Code\Whisper\transcriptions.txt
+2025-06-23 00:17:31,974 - whisper_gui - INFO - Transcription copied to clipboard
+2025-06-23 00:17:31,975 - whisper_gui - INFO - Auto-pasting text in 2 seconds
+2025-06-23 00:17:31,977 - whisper_gui - DEBUG - Temporary audio file removed
+2025-06-23 00:17:34,044 - whisper_gui - INFO - Text auto-pasted successfully
+2025-06-23 00:24:37,769 - whisper_gui - INFO - Starting audio recording
+2025-06-23 00:24:37,789 - whisper_gui - DEBUG - Audio stream opened successfully
+2025-06-23 00:24:48,745 - whisper_gui - INFO - Recording stopped by user, processing audio
+2025-06-23 00:24:48,745 - whisper_gui - INFO - Recording stopped, captured 171 frames
+2025-06-23 00:24:48,757 - whisper_gui - INFO - Saving audio recording (171 frames)
+2025-06-23 00:24:48,767 - whisper_gui - DEBUG - Audio saved to temporary file: C:\Users\roo\AppData\Local\Temp\tmpvdvpvjut.wav
+2025-06-23 00:24:48,769 - whisper_gui - INFO - Transcribing audio in language: en
+2025-06-23 00:24:48,865 - faster_whisper - INFO - Processing audio with duration 00:10.944
+2025-06-23 00:24:48,887 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2025-06-23 00:24:52,981 - whisper_gui - INFO - Transcription successful: 40 characters
+2025-06-23 00:24:52,983 - whisper_gui - INFO - Saved transcription to f:\Code\Whisper\transcriptions.txt
+2025-06-23 00:24:53,005 - whisper_gui - INFO - Transcription copied to clipboard
+2025-06-23 00:24:53,006 - whisper_gui - INFO - Auto-pasting text in 2 seconds
+2025-06-23 00:24:53,008 - whisper_gui - DEBUG - Temporary audio file removed
+2025-06-23 00:24:55,059 - whisper_gui - INFO - Text auto-pasted successfully

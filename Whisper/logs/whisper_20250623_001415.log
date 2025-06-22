@@ -1,0 +1,7 @@
+2025-06-23 00:14:15,115 - whisper_launcher - INFO - Logging initialized. Log file: f:\Code\Whisper\logs\whisper_20250623_001415.log
+2025-06-23 00:14:15,865 - whisper_launcher - WARNING - pyaudio not installed, attempting to install...
+2025-06-23 00:14:17,340 - whisper_launcher - INFO - pyaudio installed successfully
+2025-06-23 00:14:17,972 - whisper_launcher - WARNING - faster-whisper not installed, attempting to install...
+2025-06-23 00:14:19,413 - whisper_launcher - INFO - faster-whisper installed successfully
+2025-06-23 00:14:19,414 - whisper_launcher - INFO - Starting Whisper GUI application
+2025-06-23 00:14:44,275 - whisper_launcher - INFO - Application exited normally

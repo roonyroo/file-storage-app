@@ -1,0 +1,20 @@
+2025-06-23 00:01:52,964 - whisper_gui - INFO - Starting Whisper GUI application
+2025-06-23 00:01:53,302 - whisper_gui - INFO - PyAudio initialized successfully
+2025-06-23 00:01:53,418 - whisper_gui - INFO - Keyboard hooks set up successfully
+2025-06-23 00:01:53,418 - whisper_gui - INFO - GUI initialized, entering main loop
+2025-06-23 00:01:53,535 - whisper_gui - INFO - Loading model: small for language: English
+2025-06-23 00:01:53,617 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-23 00:01:53,784 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-small/revision/main HTTP/1.1" 200 1936
+2025-06-23 00:01:54,895 - whisper_gui - INFO - Model loaded successfully
+2025-06-23 00:02:39,416 - whisper_gui - CRITICAL - Unhandled exception:
+Traceback (most recent call last):
+  File "F:\Code\Whisper\whisper_gui.py", line 691, in <module>
+    main()
+    ~~~~^^
+  File "F:\Code\Whisper\whisper_gui.py", line 678, in main
+    root.mainloop()
+    ~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\tkinter\__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt

@@ -1,0 +1,12 @@
+2025-06-23 00:14:21,924 - whisper_gui - INFO - Starting Whisper GUI application
+2025-06-23 00:14:22,254 - whisper_gui - INFO - PyAudio initialized successfully
+2025-06-23 00:14:22,405 - whisper_gui - INFO - Keyboard hooks set up successfully
+2025-06-23 00:14:22,406 - whisper_gui - INFO - GUI initialized, entering main loop
+2025-06-23 00:14:22,584 - whisper_gui - INFO - Loading model: small for language: English
+2025-06-23 00:14:22,688 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-23 00:14:22,864 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-small/revision/main HTTP/1.1" 200 1936
+2025-06-23 00:14:23,976 - whisper_gui - INFO - Model loaded successfully
+2025-06-23 00:14:43,644 - whisper_gui - INFO - Application closing, cleaning up resources
+2025-06-23 00:14:43,645 - whisper_gui - DEBUG - Keyboard hooks unhooked
+2025-06-23 00:14:43,645 - whisper_gui - DEBUG - PyAudio terminated
+2025-06-23 00:14:43,645 - whisper_gui - INFO - Application shutdown complete
