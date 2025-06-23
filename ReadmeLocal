@@ -1,0 +1,155 @@
+# Flask 1xf1 + Whisper - Local Testing Guide
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+ installed
+- Working internet connection (for downloading Whisper models)
+
+### 1. Install Dependencies
+
+```bash
+# Install required packages
+pip install Flask==3.0.0 faster-whisper==0.10.0
+
+# Optional: Create virtual environment first (recommended)
+python -m venv flask_env
+# Windows:
+flask_env\Scripts\activate
+# Mac/Linux:
+source flask_env/bin/activate
+```
+
+### 2. Setup Files
+
+Create these files in your project directory:
+
+**app.py** - Copy the enhanced Flask code provided
+**requirements.txt**:
+```
+Flask==3.0.0
+gunicorn==21.2.0
+faster-whisper==0.10.0
+```
+
+### 3. Run the Application
+
+```bash
+# Start the Flask app
+python app.py
+```
+
+You should see output like:
+```
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://[your-ip]:5000
+```
+
+### 4. Test the Application
+
+Open your browser and go to: **http://localhost:5000**
+
+## 🧪 Testing Checklist
+
+### ✅ Basic Functionality
+- [ ] **1xf1 Text Storage**: Type text → Click "Store File (1xf1)" → Check file appears in list
+- [ ] **File Download**: Click download button → File downloads correctly
+- [ ] **File List**: Click "Refresh List" → Files update properly
+
+### ✅ Audio Transcription  
+- [ ] **Audio Upload**: Choose a small audio file (wav/mp3) → File appears selected
+- [ ] **Transcription**: Click "Transcribe & Store" → Transcription completes successfully
+- [ ] **Whisper Model**: First transcription may take longer (downloading model)
+
+### ✅ File Management
+- [ ] **File Naming**: Files have proper timestamps (1xf1-YYYY-MM-DD... or whisper-...)
+- [ ] **File Content**: Download and check transcription files contain proper headers
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**1. faster-whisper installation fails:**
+```bash
+# Try with specific torch version
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install faster-whisper==0.10.0
+```
+
+**2. First transcription is slow:**
+- **Normal!** faster-whisper downloads models on first use
+- Small model (~39MB) downloads automatically
+- Subsequent transcriptions will be much faster
+
+**3. Audio upload fails:**
+- Check file format (wav, mp3, mp4, m4a, flac, ogg)
+- Try a smaller file first (<10MB)
+- Check browser console for errors (F12)
+
+**4. Import errors:**
+```bash
+# Check Python version
+python --version  # Should be 3.8+
+
+# Reinstall dependencies
+pip uninstall Flask faster-whisper
+pip install Flask==3.0.0 faster-whisper==0.10.0
+```
+
+**5. Port already in use:**
+```bash
+# Use different port
+python app.py  # Edit app.py to change port=5001
+```
+
+### Memory Usage
+- **First run**: Higher memory usage (model loading)
+- **Normal operation**: ~200-500MB RAM
+- **Large audio files**: May use more memory temporarily
+
+## 📁 Directory Structure
+
+After running, you'll see:
+```
+your-project/
+├── app.py
+├── requirements.txt
+├── stored_files/          # Text files and transcriptions
+│   ├── 1xf1-2025-06-23T10-30-45-123.txt
+│   └── whisper-audio-2025-06-23T10-31-15-456.txt
+└── audio_uploads/         # Temporary audio files (auto-deleted)
+```
+
+## 🎯 Test Workflow
+
+1. **Start the app**: `python app.py`
+2. **Test text storage**: Type "Hello world" → Store → Download → Verify content
+3. **Test audio**: Upload a short audio file → Transcribe → Download → Check transcription
+4. **Check logs**: Watch terminal for any errors
+5. **Ready to deploy**: If all tests pass, upload to GitHub!
+
+## 🚀 Next Steps
+
+Once local testing is successful:
+1. Update your GitHub repository with the new `app.py`
+2. Update `requirements.txt` 
+3. Deploy to Render
+4. Create the local hotkey script for global recording
+
+## 📝 Notes
+
+- **Model Storage**: faster-whisper models are cached in `~/.cache/huggingface/`
+- **Temporary Files**: Audio uploads are automatically cleaned up
+- **Development Mode**: The app runs in production mode locally (debug=False)
+- **File Limits**: No built-in file size limits, but keep reasonable for testing
+
+## 🆘 Getting Help
+
+If you encounter issues:
+1. Check the terminal output for error messages
+2. Verify all dependencies are installed correctly
+3. Test with a simple audio file first
+4. Check that your Python version is 3.8+
+
+**Happy testing!** 🧪✨
